@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-:root{
-    --primarycolor: #3B82F6; 
+:root {
+    --primarycolor: #3B82F6;
 }
 
-body{
+body {
     font-family: 'Nunito', sans-serif;
     margin: 0rem;
 }
 
-.header{
+.header {
     padding-bottom: 2rem;
     text-align: center;
     height: 75px;
     background-color: var(--primarycolor);
 }
 
-.header-text{
+.header-text {
     text-align: center;
     padding-top: 2rem;
     color: white;
@@ -24,12 +24,12 @@ body{
     margin-block-start: 0rem;
 }
 
-.container-center{
+.container-center {
     max-width: 650px;
     margin: auto;
 }
 
-#input{
+#input {
     margin-top: 3rem;
     width: 615px;
     height: 10vh;
@@ -37,22 +37,22 @@ body{
     padding: 1rem;
 }
 
-.button-box{
+.button-box {
     background-color: var(--primarycolor);
     color: white;
     font-size: large;
-    margin-top: 2rem; 
+    margin-top: 2rem;
     width: 200px;
     height: 8vh;
     border-color: white;
 }
 
-#output-info{
+#output-info {
     font-size: larger;
     padding: 2rem;
 }
 
-#output{
+#output {
     border: 1px solid black;
     margin-bottom: 3rem;
     width: 615px;
@@ -61,16 +61,30 @@ body{
     padding: 1rem;
 }
 
-.footer{
+.footer {
     background-color: var(--primarycolor);
     padding: 1rem 1rem;
     text-align: center;
-    height: 100px;
     color: white;
 }
 
-.footer-header{
+.footer-header {
     padding-bottom: 1rem;
     font-weight: bolder;
     font-size: x-large;
+}
+
+.footer-ul-links {
+    padding-left: 0px;
+}
+
+.lists-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer-links {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 0px;
 }
